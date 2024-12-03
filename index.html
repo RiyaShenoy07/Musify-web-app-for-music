@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Unicode Transformation Format-8-bit-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--viewport is the visible area of a web page on a device's screen-->
+    <title>Riyafy - Rewind that music</title>
+    <link rel="stylesheet" href="style.css"> <!--REL attribute is used to define the
+    relationship between the linked file and the HTML document-->
+</head>
+
+
+<body>
+                          <!--NAVBAR-->
+    <nav>
+        <ul><!--unordered list-->
+           <li class="brand"><img src="logo1.png" alt="Riyafy">Riyafy</li>
+           
+            <!--<li>Flairglo</li>-->
+        </ul>
+    </nav>
+             <!--MAIN CONTAINER WHERE OUR SONG WILL BE DISPLAYED-->
+    <div class="container">
+      <!--Containers are used to create sections or
+       boxes that separate content into subsections-->
+        <div class="songlist">
+        <h1>Best of 2024</h1>
+       <!--<div class="songItemContainer">-->
+
+                        <!--Displays List of our added songs-->
+        <div>
+            <div class="songItem">
+              <img src="school1.jpg" alt="school1">
+              <span class="songName"></span>
+              <!--an inline container used to mark up a part of a text, 
+              or a part of a document-->
+              <span class="timestamp"> 05:34 
+                <i id="1" class="far songItemPlay fa-play-circle"></i></span>
+                <!--Displays small play/pause button next to song along with timestamp-->
+            </div>
+            <div class="songItem">
+                <img src="call.jpg" alt="1">
+                <span class="songName"></span>
+                <span class="timestamp"> 05:34 <i id="2" class="far songItemPlay fa-play-circle"></i></span>
+              </div>
+              <div class="songItem">
+                <img src="comfort.jpg" alt="1">
+                <span class="songName"></span>
+                <span class="timestamp"> 05:34 <i id="3" class="far songItemPlay fa-play-circle"></i></span>
+              </div>    
+              <div class="songItem">
+                <img src="disco.jpg" alt="1">
+                <span class="songName"></span>
+                <span class="timestamp"> 05:34 <i id="4" class="far songItemPlay fa-play-circle"></i></span>
+              </div>
+              <div class="songItem">
+                <img src="apki.jpg" alt="1">
+                <span class="songName"></span>
+                <span class="timestamp"> 05:34 <i id="5" class="far songItemPlay fa-play-circle"></i></span>
+              </div>
+              <div class="songItem">
+                <img src="anari.jpg" alt="1">
+                <span class="songName"></span>
+                <span class="timestamp"> 05:34 <i id="6" class="far songItemPlay fa-play-circle"></i></span>
+              </div>
+              <div class="songItem">
+                <img src="dil.jpg" alt="1">
+                <span class="songName"></span>
+              <span class="timestamp"> 05:34 <i id="7" class="far songItemPlay fa-play-circle"></i></span>
+              </div>
+              <div class="songItem">
+                <img src="sanam.jpg" alt="1">
+                <span class="songName"></span>
+                <span class="timestamp"> 05:34 <i id="8" class="far songItemPlay fa-play-circle"></i></span>
+              </div>
+            </div>
+        </div>
+
+                             <!--Progress Bar-->
+        <div class="songBanner"></div>
+        </div>
+                             <!--Progress Bar-->
+    <div class="bottom">
+        <input type="range"  id="myProgressBar" min="0" value="0" max="100" >
+        <div class="icons">
+                       <!--prev, pause/play, next buttons-->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+                    <!--Name of the current song that is playing-->
+<div class="songInfo">
+    <img src="playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">School rooftop-(Hisohkah)</span> 
+</div>
+</div>
+                 <!--All script files are linked to HTML here-->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/959fca131e.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>
