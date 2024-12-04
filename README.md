@@ -23,6 +23,12 @@ Added additional comments on every block of code for better understanding
 - **CSS3** - For styling and responsive design.
 - **JavaScript** - For interactivity and dynamic content.
 
-## Installation
+## Installation 
 git clone 
+https://github.com/RiyaShenoy07/Musify-web-app-for-music.git
+<br>
+cd Musify-web-app-for-music
+<br>
+code .
+<br>
 
