@@ -1,6 +1,8 @@
  # Musify
 
 Musify is a web project created using HTML, CSS, and JavaScript. It is designed to listen to music for music enthusiasts. I personally have added all my favorite songs of 2024 into the song list so check it out! (you can add yours). The project is hosted on GitHub to showcase web development skills and provide an interactive experience for users.
+Beginners you can use and modify this code to get hands on experience in html,css, and javascript.
+
 
 ## Features
 
@@ -21,11 +23,17 @@ Added additional comments on every block of code for better understanding
 - **JavaScript** - For interactivity and dynamic content.
 
 ## Installation 
-git clone 
-https://github.com/RiyaShenoy07/Musify-web-app-for-music.git
+1. Install latest version of git.
 <br>
-cd Musify-web-app-for-music
+2. Open windows bash shell
 <br>
-code .
+[Type the following command below]
+3. git clone https://github.com/RiyaShenoy07/Musify-web-app-for-music.git
+<br>
+[change directory]
+4. cd Musify-web-app-for-music
+<br>
+[open the folder in VS code]
+5. code .
 <br>
 
