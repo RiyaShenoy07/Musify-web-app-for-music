@@ -27,8 +27,7 @@ Added additional comments on every block of code for better understanding
 2. Open windows bash shell
 [Type the following command below]
 3. git clone https://github.com/RiyaShenoy07/Musify-web-app-for-music.git
-[change directory]
+ [change directory]
 4. cd Musify-web-app-for-music
-[open the folder in VS code]
-5. code .
+5. code . [open the folder in VS code]
 
