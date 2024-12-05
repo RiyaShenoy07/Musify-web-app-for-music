@@ -1,7 +1,4 @@
-# Musify-web-app-for-music
-"Musify" is a sleek and user-friendly web app for music enthusiasts. Built with HTML, CSS, and JavaScript, it allows users to enjoy their favorite tunes with a seamless experience. Dive in and let the music play!
-
-# Musify
+ # Musify
 
 Musify is a web project created using HTML, CSS, and JavaScript. It is designed to listen to music for music enthusiasts. I personally have added all my favorite songs of 2024 into the song list so check it out! (you can add yours). The project is hosted on GitHub to showcase web development skills and provide an interactive experience for users.
 
