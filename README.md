@@ -24,16 +24,11 @@ Added additional comments on every block of code for better understanding
 
 ## Installation 
 1. Install latest version of git.
-<br>
 2. Open windows bash shell
-<br>
 [Type the following command below]
 3. git clone https://github.com/RiyaShenoy07/Musify-web-app-for-music.git
-<br>
 [change directory]
 4. cd Musify-web-app-for-music
-<br>
 [open the folder in VS code]
 5. code .
-<br>
 
